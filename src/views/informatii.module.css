@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 100;
+  min-height: 100vh;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-500);
+  background-image: url("https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=1000");
+}
+.container1 {
+  width: 1230px;
+  height: 670px;
+  display: flex;
+  opacity: 0.3;
+  z-index: 100;
+  position: relative;
+  align-self: center;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: var(--dl-color-gray-900);
+}
+.container1:hover {
+  opacity: 0.5;
+  background-color: var(--dl-color-gray-white);
+}
+.text {
+  top: 22px;
+  left: 174px;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  align-self: center;
+}

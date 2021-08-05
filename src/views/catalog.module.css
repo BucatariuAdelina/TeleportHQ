@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-color: #D9D9D9;
+  background-image: url("https://images.unsplash.com/photo-1530910417612-701222d79f2f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=1000");
+}
+.container1 {
+  width: 1230px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 670px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}

@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxncmV5fGVufDB8fHx8MTYyODE1MTk4Mg&ixlib=rb-1.2.1&h=1000");
+}
+.container1 {
+  flex: 0 0 auto;
+  width: 1230px;
+  height: 670px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container2 {
+  width: 912px;
+  display: flex;
+  z-index: 100;
+  align-self: center;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.text {
+  color: var(--dl-color-success-300);
+  width: 100%;
+  font-size: 60px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: Noto Sans;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.text1 {
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  font-style: normal;
+  font-family: Arial Black;
+  font-weight: 900;
+}
+.text2 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-weight: 500;
+}
+.container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 404px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.container4 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.icon {
+  width: 90px;
+  height: 50px;
+  align-self: flex-start;
+}
+.text3 {
+  font-size: 25px;
+  align-self: center;
+}
+.text4 {
+  color: var(--dl-color-gray-white);
+}
+.container5 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.icon2 {
+  width: 90px;
+  height: 100%;
+}
+.text5 {
+  color: var(--dl-color-gray-white);
+  font-size: 25px;
+  align-self: center;
+}
+.container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.icon4 {
+  width: 90px;
+  height: 50px;
+}
+.text6 {
+  color: var(--dl-color-gray-white);
+  font-size: 25px;
+  align-self: center;
+}
